@@ -1,5 +1,5 @@
 {
-  "name": "validation",
+  "name": "nodejs-validation",
   "version": "1.0.0",
   "description": "validation",
   "main": "src/index.js",
