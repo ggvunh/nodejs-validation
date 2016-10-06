@@ -1,5 +1,5 @@
 
-var isNumber = function(n, cb) {
+var isNumber = (n, cb) => {
 
   if (isNaN(n)) {
 
@@ -8,7 +8,7 @@ var isNumber = function(n, cb) {
   return cb(null, true);
 };
 
-var between = function(min, max, n, cb) {
+var between = (min, max, n, cb) => {
 
   if (isNaN(min) || isNaN(max) || isNaN(n)) {
 

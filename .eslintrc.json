@@ -1,5 +1,6 @@
 {
   "parserOptions": {
+    "sourceType": "module",
     "ecmaVersion": 6,
     "ecmaFeatures": {
       "binaryLiterals": true,
@@ -7,7 +8,6 @@
       "defaultParams": true,
       "forOf": true,
       "generators": true,
-      "impliedStrict": true,
       "modules": true,
       "objectLiteralComputedProperties": true,
       "objectLiteralDuplicateProperties": true,
@@ -18,16 +18,13 @@
       "regexYFlag": true,
       "templateStrings": true,
       "unicodeCodePointEscapes": true,
-      "jsx": true
-    },
-    "parser": "esprima",
-    "sourceType": "module"
+      "jsx": false
+    }
   },
-
   "env": {
-    "es6": true,
+    "browser": true,
     "node": true,
-    "browser": true
+    "es6": true
   },
 
   "globals": {
@@ -47,16 +44,13 @@
     "id-length": 0,
     "indent": [
       "error",
-      2,
-      {
+      2, {
         "SwitchCase": 1
       }
     ],
     "init-declarations": 0,
-    "line-comment-position": 0,
     "max-len": [
-      "error",
-      {
+      "error", {
         "code": 120,
         "ignoreTrailingComments": true,
         "ignoreComments": true,
@@ -64,7 +58,7 @@
       }
     ],
     "max-lines": 0,
-    "max-params": ["error", 4],
+    "max-params": ["error", 5],
     "max-statements": 0,
     "multiline-ternary": 0,
     "newline-after-var": 0,
@@ -91,8 +85,7 @@
     "prefer-template": 0,
     "quotes": [
       "error",
-      "single",
-      {
+      "single", {
         "allowTemplateLiterals": true
       }
     ],
@@ -100,12 +93,10 @@
       "error", "as-needed"
     ],
     "require-jsdoc": 0,
+    "sort-keys": 0,
     "space-before-function-paren": [
       "error", "never"
     ],
-    "sort-imports": 0,
-    "sort-keys": 0,
-    "sort-vars": 0,
     "vars-on-top": 0
   }
 }
