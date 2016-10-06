@@ -22,7 +22,7 @@ npm start
 ## Testing
 
 ``` bash
-$ mocha test
+$ npm test
 ```
 
 ## License

@@ -4,7 +4,8 @@
   "description": "validation",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "eslint .",
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec",
     "lint": "eslint ."
   },
   "keywords": [
@@ -15,6 +16,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.5.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.0.2"
   }
 }
