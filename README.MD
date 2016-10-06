@@ -1,6 +1,7 @@
 # Nodejs validation package
 
 [![Build Status](https://travis-ci.org/ggvunh/nodejs-validation.svg?branch=master)](https://travis-ci.org/ggvunh/nodejs-validation)
+[![Coverage Status](https://coveralls.io/repos/github/ggvunh/nodejs-validation/badge.svg?branch=master)](https://coveralls.io/github/ggvunh/nodejs-validation?branch=master)
 
 ## Requirement
 - Node 6
